@@ -39,7 +39,7 @@ struct ContentView: View {
                     .frame(width: 40, height: 40) // Adjusted size of the circle
                     .foregroundColor(.red)
                     .offset(circlePosition)
-                    .animation(.linear(duration: 1))
+                    .animation(.linear(duration: Double(countdown)))
             }
 
             Spacer()
@@ -52,7 +52,7 @@ struct ContentView: View {
                 self.countdown -= 1
                 
                 // Calculate circle position based on the current phase
-                withAnimation {
+                withAnimation(.linear(duration: Double(self.countdown))) {
                     if self.phase == "Breathe In" {
                         self.circlePosition = CGSize(width: 140, height: -140) // Top-right corner above the border
                     } else if self.phase == "Hold" {
