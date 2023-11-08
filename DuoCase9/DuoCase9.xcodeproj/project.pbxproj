@@ -18,6 +18,7 @@
 		1F65CA922AF3E6DF00C73CA3 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA912AF3E6DF00C73CA3 /* HealthManager.swift */; };
 		1F65CA942AF3E77900C73CA3 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA932AF3E77900C73CA3 /* ActivityCard.swift */; };
 		1F65CA962AF3E99400C73CA3 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA952AF3E99400C73CA3 /* SleepView.swift */; };
+		CF7FA5CB2AFBA4B1008A47E5 /* BreatheCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5CA2AFBA4B1008A47E5 /* BreatheCode.swift */; };
 		CFB936A42AF9575A00460747 /* BreathingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB936A32AF9575A00460747 /* BreathingApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		1F65CA912AF3E6DF00C73CA3 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
 		1F65CA932AF3E77900C73CA3 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
 		1F65CA952AF3E99400C73CA3 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		CF7FA5CA2AFBA4B1008A47E5 /* BreatheCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheCode.swift; sourceTree = "<group>"; };
 		CFB936A32AF9575A00460747 /* BreathingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 				1F65CA572AE9798D00C73CA3 /* Assets.xcassets */,
 				1F65CA592AE9798D00C73CA3 /* Preview Content */,
 				CFB936A32AF9575A00460747 /* BreathingApp.swift */,
+				CF7FA5CA2AFBA4B1008A47E5 /* BreatheCode.swift */,
 			);
 			path = DuoCase9;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				CFB936A42AF9575A00460747 /* BreathingApp.swift in Sources */,
 				1F65CA922AF3E6DF00C73CA3 /* HealthManager.swift in Sources */,
+				CF7FA5CB2AFBA4B1008A47E5 /* BreatheCode.swift in Sources */,
 				1F65CA562AE9798B00C73CA3 /* ContentView.swift in Sources */,
 				1F65CA962AF3E99400C73CA3 /* SleepView.swift in Sources */,
 				1F65CA902AF3E5D500C73CA3 /* ChartsView.swift in Sources */,
@@ -445,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DuoCase9/Preview Content\"";
+				DEVELOPMENT_TEAM = S2WT6QNV82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Hola queremos acceder al numero de pasos que ha realizado hoy";
@@ -475,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DuoCase9/Preview Content\"";
+				DEVELOPMENT_TEAM = S2WT6QNV82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Hola queremos acceder al numero de pasos que ha realizado hoy";

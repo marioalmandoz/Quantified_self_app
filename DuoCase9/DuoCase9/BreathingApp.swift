@@ -1,49 +1,79 @@
 import SwiftUI
 
+extension Color {
+    init(hex: UInt) {
+        let red = Double((hex & 0xFF0000) >> 16) / 255.0
+        let green = Double((hex & 0x00FF00) >> 8) / 255.0
+        let blue = Double((hex & 0x0000FF)) / 255.0
+        self.init(red: red, green: green, blue: blue)
+    }
+}
+
 struct ContentView: View {
     @State private var isBreathing = false
     @State private var countdown = 4
     @State private var phase = "Breathe In"
-    @State private var circlePosition: CGSize = CGSize(width: -140, height: -140) // Initial position (top-left corner slightly above the border)
+    @State private var circlePosition: CGSize = CGSize(width: -150, height: -150) // Initial position (top-left corner slightly above the border)
 
     var body: some View {
-        VStack {
-            Spacer()
+        ZStack {
+            Color(hex: 0x132043) // Set the background color here
 
-            ZStack {
-                Rectangle()
-                    .frame(width: 300, height: 300) // Updated dimensions of the square
-                    .foregroundColor(.green)
-                    .cornerRadius(20)
-                    .overlay(
-                        VStack {
-                            Text(phase)
-                                .foregroundColor(.white)
-                                .font(.title)
-                                .bold()
+            VStack {
 
-                            Text("\(countdown)")
-                                .font(.title)
-                                .foregroundColor(.white)
+                Spacer().frame(height: 150)
+                HStack {
+                    Spacer()
+                    Text("Breathing Time ")
+                        .foregroundColor(.white) // Text color
+                        .font(.title)
+                        .bold()
+                    Spacer()
+                    
+                }
+                Spacer().frame(height: 100)
+                ZStack {
+                    Rectangle()
+                        .frame(width: 300, height: 300) // Updated dimensions of the square
+                        .foregroundColor(Color(hex: 0x435585))
+                        .cornerRadius(20)
+                        .overlay(
+                            VStack {
+                                Text(phase)
+                                    .foregroundColor(.white)
+                                    .font(.title)
+                                    .bold()
+
+                                Text("\(countdown)")
+                                    .font(.title)
+                                    .foregroundColor(.white)
+                            }
+                        )
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 20)
+                                .stroke(Color(hex: 0xF6E1E1), lineWidth: 9) // Border color (hex: #ffffff)
+                        )
+                        .onTapGesture {
+                            self.isBreathing.toggle()
+                            self.countdown = 4
+                            self.phase = "Breathe In"
+                            self.circlePosition = CGSize(width: -140, height: -140) // Set initial position for the circle (slightly above the top-left corner above the border)
+                            self.startCountdown()
                         }
-                    )
-                    .onTapGesture {
-                        self.isBreathing.toggle()
-                        self.countdown = 4
-                        self.phase = "Breathe In"
-                        self.circlePosition = CGSize(width: -140, height: -140) // Set initial position for the circle (slightly above the top-left corner above the border)
-                        self.startCountdown()
-                    }
+                    
+                    
 
-                Circle()
-                    .frame(width: 40, height: 40) // Adjusted size of the circle
-                    .foregroundColor(.red)
-                    .offset(circlePosition)
-                    .animation(.linear(duration: Double(countdown)))
+                    Circle()
+                        .frame(width: 40, height: 40) // Adjusted size of the circle
+                        .foregroundColor(Color(hex: 0x00C2FF))
+                        .offset(circlePosition)
+                        .animation(.linear(duration: Double(countdown)))
+                }
+
+                Spacer()
             }
-
-            Spacer()
         }
+        .edgesIgnoringSafeArea(.all)
     }
 
     func startCountdown() {
@@ -54,13 +84,13 @@ struct ContentView: View {
                 // Calculate circle position based on the current phase
                 withAnimation(.linear(duration: Double(self.countdown))) {
                     if self.phase == "Breathe In" {
-                        self.circlePosition = CGSize(width: 140, height: -140) // Top-right corner above the border
+                        self.circlePosition = CGSize(width: 150, height: -150) // Top-right corner above the border
                     } else if self.phase == "Hold" {
-                        self.circlePosition = CGSize(width: 140, height: 140) // Bottom-right corner above the border
+                        self.circlePosition = CGSize(width: 150, height: 150) // Bottom-right corner above the border
                     } else if self.phase == "Breathe Out" {
-                        self.circlePosition = CGSize(width: -140, height: 140) // Bottom-left corner above the border
+                        self.circlePosition = CGSize(width: -150, height: 150) // Bottom-left corner above the border
                     } else {
-                        self.circlePosition = CGSize(width: -140, height: -140) // Top-left corner above the border
+                        self.circlePosition = CGSize(width: -150, height: -150) // Top-left corner above the border
                     }
                 }
                 
@@ -93,3 +123,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+    
