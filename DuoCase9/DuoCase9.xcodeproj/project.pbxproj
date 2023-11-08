@@ -17,7 +17,9 @@
 		1F65CA902AF3E5D500C73CA3 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA8F2AF3E5D500C73CA3 /* ChartsView.swift */; };
 		1F65CA922AF3E6DF00C73CA3 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA912AF3E6DF00C73CA3 /* HealthManager.swift */; };
 		1F65CA942AF3E77900C73CA3 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA932AF3E77900C73CA3 /* ActivityCard.swift */; };
-		1F65CA962AF3E99400C73CA3 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA952AF3E99400C73CA3 /* SleepView.swift */; };
+		1F65CA982AFAAAE600C73CA3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA972AFAAAE600C73CA3 /* HomeView.swift */; };
+		1F65CA9A2AFAAB7B00C73CA3 /* SleepTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA992AFAAB7B00C73CA3 /* SleepTrack.swift */; };
+		1F65CA9C2AFAB18200C73CA3 /* BreathingTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA9B2AFAB18200C73CA3 /* BreathingTrack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +54,9 @@
 		1F65CA8F2AF3E5D500C73CA3 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 		1F65CA912AF3E6DF00C73CA3 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
 		1F65CA932AF3E77900C73CA3 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
-		1F65CA952AF3E99400C73CA3 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		1F65CA972AFAAAE600C73CA3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1F65CA992AFAAB7B00C73CA3 /* SleepTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrack.swift; sourceTree = "<group>"; };
+		1F65CA9B2AFAB18200C73CA3 /* BreathingTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingTrack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +120,12 @@
 			isa = PBXGroup;
 			children = (
 				1F65CA5A2AE9798D00C73CA3 /* Preview Assets.xcassets */,
-				1F65CA8F2AF3E5D500C73CA3 /* ChartsView.swift */,
+				1F65CA972AFAAAE600C73CA3 /* HomeView.swift */,
 				1F65CA912AF3E6DF00C73CA3 /* HealthManager.swift */,
+				1F65CA8F2AF3E5D500C73CA3 /* ChartsView.swift */,
 				1F65CA932AF3E77900C73CA3 /* ActivityCard.swift */,
-				1F65CA952AF3E99400C73CA3 /* SleepView.swift */,
+				1F65CA992AFAAB7B00C73CA3 /* SleepTrack.swift */,
+				1F65CA9B2AFAB18200C73CA3 /* BreathingTrack.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -271,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F65CA9C2AFAB18200C73CA3 /* BreathingTrack.swift in Sources */,
 				1F65CA922AF3E6DF00C73CA3 /* HealthManager.swift in Sources */,
+				1F65CA9A2AFAAB7B00C73CA3 /* SleepTrack.swift in Sources */,
+				1F65CA982AFAAAE600C73CA3 /* HomeView.swift in Sources */,
 				1F65CA562AE9798B00C73CA3 /* ContentView.swift in Sources */,
-				1F65CA962AF3E99400C73CA3 /* SleepView.swift in Sources */,
 				1F65CA902AF3E5D500C73CA3 /* ChartsView.swift in Sources */,
 				1F65CA942AF3E77900C73CA3 /* ActivityCard.swift in Sources */,
 				1F65CA542AE9798B00C73CA3 /* DuoCase9App.swift in Sources */,
@@ -441,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DuoCase9/Preview Content\"";
+				DEVELOPMENT_TEAM = PQL6MLB2FG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Hola queremos acceder al numero de pasos que ha realizado hoy";
@@ -454,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pruebas.DuoCase9;
+				PRODUCT_BUNDLE_IDENTIFIER = DuoCase9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -471,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DuoCase9/Preview Content\"";
+				DEVELOPMENT_TEAM = PQL6MLB2FG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Hola queremos acceder al numero de pasos que ha realizado hoy";
@@ -484,7 +494,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pruebas.DuoCase9;
+				PRODUCT_BUNDLE_IDENTIFIER = DuoCase9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -7,6 +7,8 @@
 import SwiftUI
 import HealthKit
 
+
+
 struct ContentView: View {
     
 
@@ -14,25 +16,28 @@ struct ContentView: View {
     @State var selectedTab = "Home"
     
     var body: some View {
-        TabView(selection: $selectedTab) {
-            ContentView()
-                .environmentObject(manager)
-                .tag("Home")
-                .tabItem {
-                    Image(systemName: "house")
-                }
-            
-            ChartsView()
-                .environmentObject(manager)
-                .tag("Charts")
-                .tabItem {
-                    Image(systemName: "chart.line.uptrend.xyaxis")
-                }
+        ZStack{
+            Color.gray.opacity(0.8).ignoresSafeArea()
+            TabView(selection: $selectedTab) {
+                HomeView()
+                    .environmentObject(manager)
+                    .tag("Home")
+                    .tabItem {
+                        Image(systemName: "chart.line.uptrend.xyaxis")
+                    }
                 
-            ContentView()
-                .tag("Content")
-                .tabItem { Image(systemName: "person")
-                }
+                SleepTrack()
+                    .environmentObject(manager)
+                    .tag("Sleep")
+                    .tabItem {
+                        Image(systemName: "zzz")
+                    }
+                
+                BreathingTrack()
+                    .tag("Breathing")
+                    .tabItem { Image(systemName: "waveform.path.ecg")
+                    }
+            }.background(Color.gray)
         }
     }
 }
