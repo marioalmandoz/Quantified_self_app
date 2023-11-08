@@ -22,7 +22,7 @@ struct BreatheCode: View {
                 
                 Spacer().frame(height: 40)
                 
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: BreathingApp()) {
                     Text("To sleep:    4-7-8 (military)")
                         .font(.title)
                         .foregroundColor(.white)
@@ -34,7 +34,7 @@ struct BreatheCode: View {
                 
                 Spacer().frame(height: 20)
                 
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: BreathingApp()) {
                     Text("Reduce stress:   3-5-6")
                         .font(.title)
                         .foregroundColor(.white)
@@ -46,7 +46,7 @@ struct BreatheCode: View {
                 
                 Spacer().frame(height: 20)
                 
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: BreathingApp()) {
                     Text("Reduce anxiety: 4-4-4-4")
                         .font(.title)
                         .foregroundColor(.white)
