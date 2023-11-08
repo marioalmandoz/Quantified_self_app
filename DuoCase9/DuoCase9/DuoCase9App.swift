@@ -11,7 +11,7 @@ import SwiftUI
 struct DuoCase9App: App {
     var body: some Scene {
         WindowGroup {
-            MainPageView()
+            ContentView()
         }
     }
 }

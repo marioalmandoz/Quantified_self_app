@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct MainPageView: View {
+struct BreatheCode: View {
     var body: some View {
         NavigationView {
             
@@ -23,7 +23,7 @@ struct MainPageView: View {
                 Spacer().frame(height: 40)
                 
                 NavigationLink(destination: ContentView()) {
-                    Text("To sleep:  4-7-8 (military)")
+                    Text("To sleep:    4-7-8 (military)")
                         .font(.title)
                         .foregroundColor(.white)
                         .padding(30)
@@ -64,8 +64,8 @@ struct MainPageView: View {
 
     }
 }
-struct MainPageView_Previews: PreviewProvider {
+struct BreathingCode_Provider: PreviewProvider {
     static var previews: some View {
-        MainPageView()
+        BreatheCode()
     }
 }

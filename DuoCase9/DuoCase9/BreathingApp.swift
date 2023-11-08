@@ -9,7 +9,7 @@ extension Color {
     }
 }
 
-struct ContentView: View {
+struct BreathingApp: View {
     @State private var isBreathing = false
     @State private var countdown = 4
     @State private var phase = "Breathe In"
