@@ -13,6 +13,19 @@ enum Tab: String, CaseIterable{
     case leaf
 }
 
+
+extension Color {
+    init(hex: Int, alpha: Double = 1) {
+        self.init(
+            .sRGB,
+            red: Double((hex >> 16) & 0xFF) / 255.0,
+            green: Double((hex >> 8) & 0xFF) / 255.0,
+            blue: Double(hex & 0xFF) / 255.0,
+            opacity: alpha
+        )
+    }
+}
+
 struct CustomTabBar: View {
     @Binding var selectedTab: Tab
     private var fillImage: String{
@@ -22,11 +35,11 @@ struct CustomTabBar: View {
     private var tabColor: Color {
         switch selectedTab {
         case .house:
-            return .blue
+            return .white
         case .message:
-            return .red
+            return .white
         case .leaf:
-            return .green
+            return .white
         }
     }
     
@@ -48,8 +61,8 @@ struct CustomTabBar: View {
                     Spacer()
                 }
             }
-            .frame(width: nil, height: 60)
-            .background(Color.black)
+            .frame(width: .infinity, height: 50)
+            .background(Color(hex: 0x435585))
             .cornerRadius(10)
             .padding()
         }
