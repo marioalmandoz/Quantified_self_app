@@ -43,8 +43,8 @@ struct HomeView: View {
                             
                         }
                         
-                    ).frame(width: 300, height: 90)
-                    .padding()
+                    ).frame(width: 300, height: 100)
+                    .padding(.top, 90)
                 Spacer()
                 
                 Text("Sleep Goal")
@@ -159,6 +159,7 @@ struct HomeView: View {
                     }
     
                 }.padding()
+                    .offset(x: -10, y: -40)
                 Spacer()
                 Spacer()
             }

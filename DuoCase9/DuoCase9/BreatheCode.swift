@@ -61,7 +61,7 @@ struct BreatheCode: View {
                     
                     Spacer().frame(height: 40)
                     
-                    NavigationLink(destination: ContentView()) {
+                    NavigationLink(destination: BreathingApp()) {
                         Text("Reduce Anxiety")
                             .font(.title)
                             .foregroundColor(.white)
