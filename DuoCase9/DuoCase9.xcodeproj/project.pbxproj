@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F09FE0E2AFD52CA00FA15FC /* GoalChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09FE0D2AFD52CA00FA15FC /* GoalChange.swift */; };
 		1F65CA542AE9798B00C73CA3 /* DuoCase9App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA532AE9798B00C73CA3 /* DuoCase9App.swift */; };
 		1F65CA562AE9798B00C73CA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA552AE9798B00C73CA3 /* ContentView.swift */; };
 		1F65CA582AE9798D00C73CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F65CA572AE9798D00C73CA3 /* Assets.xcassets */; };
@@ -17,9 +18,7 @@
 		CF7FA5CD2AFBBD32008A47E5 /* SleepTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5CC2AFBBD32008A47E5 /* SleepTrack.swift */; };
 		CF7FA5D12AFBBF74008A47E5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5D02AFBBF74008A47E5 /* HomeView.swift */; };
 		CF7FA5D32AFBD89D008A47E5 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5D22AFBD89D008A47E5 /* CustomTabBar.swift */; };
-		CF7FA5D72AFD0A5D008A47E5 /* GoalChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5D62AFD0A5D008A47E5 /* GoalChange.swift */; };
 		CFB936A42AF9575A00460747 /* BreathingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB936A32AF9575A00460747 /* BreathingApp.swift */; };
-		CFFA096D2AFD23C00043788E /* picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFA096C2AFD23C00043788E /* picker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F09FE0D2AFD52CA00FA15FC /* GoalChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalChange.swift; sourceTree = "<group>"; };
 		1F65CA502AE9798B00C73CA3 /* DuoCase9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuoCase9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F65CA532AE9798B00C73CA3 /* DuoCase9App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoCase9App.swift; sourceTree = "<group>"; };
 		1F65CA552AE9798B00C73CA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,9 +54,7 @@
 		CF7FA5CC2AFBBD32008A47E5 /* SleepTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrack.swift; sourceTree = "<group>"; };
 		CF7FA5D02AFBBF74008A47E5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CF7FA5D22AFBD89D008A47E5 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
-		CF7FA5D62AFD0A5D008A47E5 /* GoalChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalChange.swift; sourceTree = "<group>"; };
 		CFB936A32AF9575A00460747 /* BreathingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingApp.swift; sourceTree = "<group>"; };
-		CFFA096C2AFD23C00043788E /* picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +115,7 @@
 				CF7FA5D02AFBBF74008A47E5 /* HomeView.swift */,
 				CF7FA5CC2AFBBD32008A47E5 /* SleepTrack.swift */,
 				CF7FA5D22AFBD89D008A47E5 /* CustomTabBar.swift */,
-				CF7FA5D62AFD0A5D008A47E5 /* GoalChange.swift */,
-				CFFA096C2AFD23C00043788E /* picker.swift */,
+				1F09FE0D2AFD52CA00FA15FC /* GoalChange.swift */,
 			);
 			path = DuoCase9;
 			sourceTree = "<group>";
@@ -280,8 +277,7 @@
 				CF7FA5CB2AFBA4B1008A47E5 /* BreatheCode.swift in Sources */,
 				CF7FA5D32AFBD89D008A47E5 /* CustomTabBar.swift in Sources */,
 				1F65CA562AE9798B00C73CA3 /* ContentView.swift in Sources */,
-				CFFA096D2AFD23C00043788E /* picker.swift in Sources */,
-				CF7FA5D72AFD0A5D008A47E5 /* GoalChange.swift in Sources */,
+				1F09FE0E2AFD52CA00FA15FC /* GoalChange.swift in Sources */,
 				CF7FA5D12AFBBF74008A47E5 /* HomeView.swift in Sources */,
 				CF7FA5CD2AFBBD32008A47E5 /* SleepTrack.swift in Sources */,
 				1F65CA542AE9798B00C73CA3 /* DuoCase9App.swift in Sources */,
@@ -449,7 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DuoCase9/Preview Content\"";
-				DEVELOPMENT_TEAM = S2WT6QNV82;
+				DEVELOPMENT_TEAM = PQL6MLB2FG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Hola queremos acceder al numero de pasos que ha realizado hoy";
@@ -463,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pruebas.DuoCase9;
+				PRODUCT_BUNDLE_IDENTIFIER = DuoCase9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DuoCase9/Preview Content\"";
-				DEVELOPMENT_TEAM = S2WT6QNV82;
+				DEVELOPMENT_TEAM = PQL6MLB2FG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Hola queremos acceder al numero de pasos que ha realizado hoy";
@@ -494,7 +490,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pruebas.DuoCase9;
+				PRODUCT_BUNDLE_IDENTIFIER = DuoCase9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
