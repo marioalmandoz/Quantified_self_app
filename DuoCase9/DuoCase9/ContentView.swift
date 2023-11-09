@@ -48,34 +48,3 @@
             ContentView()
         }
     }
-
-
-//ZStack {
-  //  Color.gray.opacity(0.8).ignoresSafeArea()
-    //    TabView(selection: $selectedTab) {
-      //      HomeView()
-        //        .tag("Home")
-          //      .tabItem {
-            //        Image(systemName: "chart.line.uptrend.xyaxis")
-//
-  //              }
-    //
-      //      SleepTrack()
-        //        .tag("Sleep")
-          //      .tabItem {
-            //        Image(systemName: "zzz")
-              //  }
-            
-            //BreatheCode()
-              //  .tag("Breathing")
-                //.tabItem { Image(systemName: "waveform.path.ecg")
-                //}
-       // }
-    
-//}
-
-//ForEach(Tab.allCases, id: \.rawValue) { tab in HStack {
-//    Image(systemName: tab.rawValue)
-//    Text("\(tab.rawValue.capitalized)")
-//        .bold()
-//        .animation(nil,  value: selectedTab)

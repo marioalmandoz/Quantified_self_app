@@ -17,6 +17,7 @@
 		CF7FA5CD2AFBBD32008A47E5 /* SleepTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5CC2AFBBD32008A47E5 /* SleepTrack.swift */; };
 		CF7FA5D12AFBBF74008A47E5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5D02AFBBF74008A47E5 /* HomeView.swift */; };
 		CF7FA5D32AFBD89D008A47E5 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5D22AFBD89D008A47E5 /* CustomTabBar.swift */; };
+		CF7FA5D52AFCE20B008A47E5 /* SleepStopTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5D42AFCE20B008A47E5 /* SleepStopTrack.swift */; };
 		CFB936A42AF9575A00460747 /* BreathingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB936A32AF9575A00460747 /* BreathingApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		CF7FA5CC2AFBBD32008A47E5 /* SleepTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrack.swift; sourceTree = "<group>"; };
 		CF7FA5D02AFBBF74008A47E5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CF7FA5D22AFBD89D008A47E5 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		CF7FA5D42AFCE20B008A47E5 /* SleepStopTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepStopTrack.swift; sourceTree = "<group>"; };
 		CFB936A32AF9575A00460747 /* BreathingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +113,9 @@
 				CFB936A32AF9575A00460747 /* BreathingApp.swift */,
 				CF7FA5CA2AFBA4B1008A47E5 /* BreatheCode.swift */,
 				CF7FA5D02AFBBF74008A47E5 /* HomeView.swift */,
+				CF7FA5CC2AFBBD32008A47E5 /* SleepTrack.swift */,
 				CF7FA5D22AFBD89D008A47E5 /* CustomTabBar.swift */,
+				CF7FA5D42AFCE20B008A47E5 /* SleepStopTrack.swift */,
 			);
 			path = DuoCase9;
 			sourceTree = "<group>";
@@ -119,7 +123,6 @@
 		1F65CA592AE9798D00C73CA3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CF7FA5CC2AFBBD32008A47E5 /* SleepTrack.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				CFB936A42AF9575A00460747 /* BreathingApp.swift in Sources */,
 				CF7FA5CB2AFBA4B1008A47E5 /* BreatheCode.swift in Sources */,
 				CF7FA5D32AFBD89D008A47E5 /* CustomTabBar.swift in Sources */,
+				CF7FA5D52AFCE20B008A47E5 /* SleepStopTrack.swift in Sources */,
 				1F65CA562AE9798B00C73CA3 /* ContentView.swift in Sources */,
 				CF7FA5D12AFBBF74008A47E5 /* HomeView.swift in Sources */,
 				CF7FA5CD2AFBBD32008A47E5 /* SleepTrack.swift in Sources */,
