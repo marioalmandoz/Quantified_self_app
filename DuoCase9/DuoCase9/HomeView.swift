@@ -4,7 +4,7 @@ struct HomeView: View {
     
     var percentage: Double = 0.9
     let data: [Double] = [0.2, 0.6, 0.8, 0.4, 0.7, 0.9, 0.5] // Valores de ejemplo
-    let weekdays: [String] = ["L", "M", "X", "J", "V", "S", "D"]
+    let weekdays: [String] = ["S", "M", "T", "W", "T", "F", "S"]
     
     var body: some View {
         ZStack{
@@ -105,7 +105,7 @@ struct HomeView: View {
                         }
                         .frame(width: 80, height: 80) // Ajusta el tamaño del botón
                         .background(Circle().fill(Color.gray.opacity(0.0))) // Hace que el botón sea un círculo
-                        .offset(x: 53, y: 0) // Ajusta la posición del botón
+                        .offset(x: 40, y: 0) // Ajusta la posición del botón
                     }.padding()
                 }.padding()
                     .background(Color.gray.opacity(0.2))

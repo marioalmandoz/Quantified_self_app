@@ -17,7 +17,7 @@ struct BreathingApp: View {
 
     var body: some View {
         ZStack {
-            Color(hex: 0x132043) // Set the background color here
+            Color(red: 0, green: 0, blue: 0.3, opacity: 1) // Set the background color here
 
             VStack {
 

@@ -29,9 +29,9 @@ struct ContentView: View {
                     TabView(selection: $selectedTab) {
                         if selectedTab == .house {
                             HomeView()
-                        } else if selectedTab == .message {
+                        } else if selectedTab == .moon {
                             SleepTrack()
-                        } else if selectedTab == .leaf {
+                        } else if selectedTab == .person {
                             BreatheCode()
                         }
                     }
