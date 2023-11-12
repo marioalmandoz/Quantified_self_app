@@ -10,16 +10,15 @@
 		1F65CA542AE9798B00C73CA3 /* DuoCase9App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA532AE9798B00C73CA3 /* DuoCase9App.swift */; };
 		1F65CA562AE9798B00C73CA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA552AE9798B00C73CA3 /* ContentView.swift */; };
 		1F65CA582AE9798D00C73CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F65CA572AE9798D00C73CA3 /* Assets.xcassets */; };
-		1F65CA5B2AE9798D00C73CA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F65CA5A2AE9798D00C73CA3 /* Preview Assets.xcassets */; };
 		1F65CA652AE9798D00C73CA3 /* DuoCase9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA642AE9798D00C73CA3 /* DuoCase9Tests.swift */; };
 		1F65CA6F2AE9798E00C73CA3 /* DuoCase9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA6E2AE9798E00C73CA3 /* DuoCase9UITests.swift */; };
 		1F65CA712AE9798E00C73CA3 /* DuoCase9UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA702AE9798E00C73CA3 /* DuoCase9UITestsLaunchTests.swift */; };
-		1F65CA902AF3E5D500C73CA3 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA8F2AF3E5D500C73CA3 /* ChartsView.swift */; };
-		1F65CA922AF3E6DF00C73CA3 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA912AF3E6DF00C73CA3 /* HealthManager.swift */; };
-		1F65CA942AF3E77900C73CA3 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA932AF3E77900C73CA3 /* ActivityCard.swift */; };
-		1F65CA982AFAAAE600C73CA3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA972AFAAAE600C73CA3 /* HomeView.swift */; };
-		1F65CA9A2AFAAB7B00C73CA3 /* SleepTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA992AFAAB7B00C73CA3 /* SleepTrack.swift */; };
-		1F65CA9C2AFAB18200C73CA3 /* BreathingTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F65CA9B2AFAB18200C73CA3 /* BreathingTrack.swift */; };
+		CF7FA5CB2AFBA4B1008A47E5 /* BreatheCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5CA2AFBA4B1008A47E5 /* BreatheCode.swift */; };
+		CF7FA5CD2AFBBD32008A47E5 /* SleepTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5CC2AFBBD32008A47E5 /* SleepTrack.swift */; };
+		CF7FA5D12AFBBF74008A47E5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5D02AFBBF74008A47E5 /* HomeView.swift */; };
+		CF7FA5D32AFBD89D008A47E5 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5D22AFBD89D008A47E5 /* CustomTabBar.swift */; };
+		CF7FA5D72AFD0A5D008A47E5 /* GoalChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FA5D62AFD0A5D008A47E5 /* GoalChange.swift */; };
+		CFB936A42AF9575A00460747 /* BreathingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB936A32AF9575A00460747 /* BreathingApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,19 +43,18 @@
 		1F65CA532AE9798B00C73CA3 /* DuoCase9App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoCase9App.swift; sourceTree = "<group>"; };
 		1F65CA552AE9798B00C73CA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F65CA572AE9798D00C73CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F65CA5A2AE9798D00C73CA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F65CA602AE9798D00C73CA3 /* DuoCase9Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuoCase9Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F65CA642AE9798D00C73CA3 /* DuoCase9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoCase9Tests.swift; sourceTree = "<group>"; };
 		1F65CA6A2AE9798E00C73CA3 /* DuoCase9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuoCase9UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F65CA6E2AE9798E00C73CA3 /* DuoCase9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoCase9UITests.swift; sourceTree = "<group>"; };
 		1F65CA702AE9798E00C73CA3 /* DuoCase9UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuoCase9UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1F65CA7D2AE9799600C73CA3 /* DuoCase9.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DuoCase9.entitlements; sourceTree = "<group>"; };
-		1F65CA8F2AF3E5D500C73CA3 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
-		1F65CA912AF3E6DF00C73CA3 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
-		1F65CA932AF3E77900C73CA3 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
-		1F65CA972AFAAAE600C73CA3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		1F65CA992AFAAB7B00C73CA3 /* SleepTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrack.swift; sourceTree = "<group>"; };
-		1F65CA9B2AFAB18200C73CA3 /* BreathingTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingTrack.swift; sourceTree = "<group>"; };
+		CF7FA5CA2AFBA4B1008A47E5 /* BreatheCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheCode.swift; sourceTree = "<group>"; };
+		CF7FA5CC2AFBBD32008A47E5 /* SleepTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrack.swift; sourceTree = "<group>"; };
+		CF7FA5D02AFBBF74008A47E5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CF7FA5D22AFBD89D008A47E5 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		CF7FA5D62AFD0A5D008A47E5 /* GoalChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalChange.swift; sourceTree = "<group>"; };
+		CFB936A32AF9575A00460747 /* BreathingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +110,12 @@
 				1F65CA552AE9798B00C73CA3 /* ContentView.swift */,
 				1F65CA572AE9798D00C73CA3 /* Assets.xcassets */,
 				1F65CA592AE9798D00C73CA3 /* Preview Content */,
+				CFB936A32AF9575A00460747 /* BreathingApp.swift */,
+				CF7FA5CA2AFBA4B1008A47E5 /* BreatheCode.swift */,
+				CF7FA5D02AFBBF74008A47E5 /* HomeView.swift */,
+				CF7FA5CC2AFBBD32008A47E5 /* SleepTrack.swift */,
+				CF7FA5D22AFBD89D008A47E5 /* CustomTabBar.swift */,
+				CF7FA5D62AFD0A5D008A47E5 /* GoalChange.swift */,
 			);
 			path = DuoCase9;
 			sourceTree = "<group>";
@@ -119,13 +123,6 @@
 		1F65CA592AE9798D00C73CA3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1F65CA5A2AE9798D00C73CA3 /* Preview Assets.xcassets */,
-				1F65CA972AFAAAE600C73CA3 /* HomeView.swift */,
-				1F65CA912AF3E6DF00C73CA3 /* HealthManager.swift */,
-				1F65CA8F2AF3E5D500C73CA3 /* ChartsView.swift */,
-				1F65CA932AF3E77900C73CA3 /* ActivityCard.swift */,
-				1F65CA992AFAAB7B00C73CA3 /* SleepTrack.swift */,
-				1F65CA9B2AFAB18200C73CA3 /* BreathingTrack.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -251,7 +248,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F65CA5B2AE9798D00C73CA3 /* Preview Assets.xcassets in Resources */,
 				1F65CA582AE9798D00C73CA3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,13 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F65CA9C2AFAB18200C73CA3 /* BreathingTrack.swift in Sources */,
-				1F65CA922AF3E6DF00C73CA3 /* HealthManager.swift in Sources */,
-				1F65CA9A2AFAAB7B00C73CA3 /* SleepTrack.swift in Sources */,
-				1F65CA982AFAAAE600C73CA3 /* HomeView.swift in Sources */,
+				CFB936A42AF9575A00460747 /* BreathingApp.swift in Sources */,
+				CF7FA5CB2AFBA4B1008A47E5 /* BreatheCode.swift in Sources */,
+				CF7FA5D32AFBD89D008A47E5 /* CustomTabBar.swift in Sources */,
 				1F65CA562AE9798B00C73CA3 /* ContentView.swift in Sources */,
-				1F65CA902AF3E5D500C73CA3 /* ChartsView.swift in Sources */,
-				1F65CA942AF3E77900C73CA3 /* ActivityCard.swift in Sources */,
+				CF7FA5D72AFD0A5D008A47E5 /* GoalChange.swift in Sources */,
+				CF7FA5D12AFBBF74008A47E5 /* HomeView.swift in Sources */,
+				CF7FA5CD2AFBBD32008A47E5 /* SleepTrack.swift in Sources */,
 				1F65CA542AE9798B00C73CA3 /* DuoCase9App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,7 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DuoCase9/Preview Content\"";
-				DEVELOPMENT_TEAM = PQL6MLB2FG;
+				DEVELOPMENT_TEAM = S2WT6QNV82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Hola queremos acceder al numero de pasos que ha realizado hoy";
@@ -463,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = DuoCase9;
+				PRODUCT_BUNDLE_IDENTIFIER = pruebas.DuoCase9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DuoCase9/Preview Content\"";
-				DEVELOPMENT_TEAM = PQL6MLB2FG;
+				DEVELOPMENT_TEAM = S2WT6QNV82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Hola queremos acceder al numero de pasos que ha realizado hoy";
@@ -494,7 +490,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = DuoCase9;
+				PRODUCT_BUNDLE_IDENTIFIER = pruebas.DuoCase9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

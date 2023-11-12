@@ -1,51 +1,55 @@
-//
-//  ContentView.swift
-//  DuoCase9
-//
-//  Created by Mario Almandoz Latierro on 25/10/23.
-//
-import SwiftUI
-import HealthKit
 
-
-
+    //
+    //  ContentView.swift
+    //  DuoCase9
+    //
+    //  Created by Mario Almandoz Latierro on 25/10/23.
+    //
+    import SwiftUI
+     
 struct ContentView: View {
+    @State private var selectedTab: Tab = .house
     
-
-    @EnvironmentObject var manager: HealthManager
-    @State var selectedTab = "Home"
+    init() {
+        UITableView.appearance().isHidden = true
+    }
     
     var body: some View {
-        ZStack{
-            Color.gray.opacity(0.8).ignoresSafeArea()
-            TabView(selection: $selectedTab) {
-                HomeView()
-                    .environmentObject(manager)
-                    .tag("Home")
-                    .tabItem {
-                        Image(systemName: "chart.line.uptrend.xyaxis")
-                    }
+        ZStack {
+            Color(red: 0, green: 0, blue: 0.3, opacity: 1).edgesIgnoringSafeArea(.all) // Set the background color of the ZStack using hex color
+            
+            ZStack(alignment: .bottom) {
+                // Content of the pages above the TabView and CustomTabBar
+                VStack {
+                    // Place your main page content here
+                }
                 
-                SleepTrack()
-                    .environmentObject(manager)
-                    .tag("Sleep")
-                    .tabItem {
-                        Image(systemName: "zzz")
+                // TabView and CustomTabBar layered on top of each other
+                VStack {
+                    TabView(selection: $selectedTab) {
+                        if selectedTab == .house {
+                            HomeView()
+                        } else if selectedTab == .moon {
+                            SleepTrack()
+                        } else if selectedTab == .person {
+                            BreatheCode()
+                        }
                     }
-                
-                BreathingTrack()
-                    .tag("Breathing")
-                    .tabItem { Image(systemName: "waveform.path.ecg")
-                    }
-            }.background(Color.gray)
+                    .edgesIgnoringSafeArea(.bottom) // Ensure TabView doesn't overlap with safe area at the bottom
+                    
+                    CustomTabBar(selectedTab: $selectedTab)
+                        .background(Color.clear) // Set the background of the CustomTabBar to clear
+                }
+            }
         }
     }
 }
 
+    
 
-struct ContentView_Preview: PreviewProvider {
-    static var previews: some View{
-        ContentView()
-            .environmentObject(HealthManager())
+     
+    struct ContentView_Preview: PreviewProvider {
+        static var previews: some View{
+            ContentView()
+        }
     }
-}
